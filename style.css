@@ -99,7 +99,8 @@ img[alt="user profile image"] {
   color: var(--Dark-grayish-blue);
   text-decoration: none;
 }
-.content-div__post::after {
+
+.read-visible::after {
   content: "";
   height: 10px;
   width: 10px;
@@ -107,12 +108,14 @@ img[alt="user profile image"] {
   border-radius: 50%;
   display: inline-block;
   margin-left: 4px;
+  visibility: visible;
 }
+
 .content-div__time {
   color: var(--Grayish-blue);
 }
 .content-div__clubname {
-    color: var(--Blue);
+  color: var(--Blue);
 }
 .content-div__privateMessage {
   padding: 1em;
@@ -123,14 +126,12 @@ img[alt="user profile image"] {
   font-size: 16px;
 }
 .content-div__privateMessage:hover {
-    background-color: #e5eff9;
-    cursor: pointer;
+  background-color: #e5eff9;
+  cursor: pointer;
 }
 
-
-img[alt="Kimberly smith"]{
-    margin-left: 8.3rem;
-
+img[alt="Kimberly smith"] {
+  margin-left: 8.3rem;
 }
 
 @media (min-width: 800px) {
