@@ -26,6 +26,7 @@ body {
   background-color: #fff;
   border-radius: 1rem;
   padding: 1.5rem 1rem;
+  width: 100%;
 }
 
 .header-div {
@@ -51,7 +52,7 @@ div h1 span {
 }
 .header-div__readAll {
   color: var(--Dark-grayish-blue);
-  font-size: 14px;
+  font-size: 12px;
 }
 .header-div__readAll:hover {
   color: var(--Blue);
@@ -63,12 +64,12 @@ div h1 span {
 /* Content div style ----------------- */
 
 .content-div {
-  border-radius: 14px;
-  padding: 1rem;
+  border-radius: 12px;
+  padding: 0.5rem;
   display: flex;
   justify-content: start;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 0.7rem;
   margin-bottom: 0.5em;
 }
 .unread {
@@ -76,12 +77,12 @@ div h1 span {
 }
 
 img[alt="user profile image"] {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .content-div__username {
   font-weight: 800;
-  font-size: 17px;
+  font-size: 14px;
   color: black;
   margin-right: 2px;
   text-decoration: none;
@@ -92,7 +93,7 @@ img[alt="user profile image"] {
 }
 .content-div__text {
   color: var(--Grayish-blue);
-  font-size: 16px;
+  font-size: 14px;
 }
 .content-div__post {
   font-weight: 800;
@@ -131,7 +132,8 @@ img[alt="user profile image"] {
 }
 
 img[alt="Kimberly smith"] {
-  margin-left: 8.3rem;
+  width: 50px;
+  height: 50px;
 }
 
 @media (min-width: 800px) {
@@ -140,6 +142,15 @@ img[alt="Kimberly smith"] {
     padding-top: 3rem;
   }
   .main-container {
-    max-width: 750px;
+    max-width: 700px;
+  }
+  img[alt="Kimberly smith"] {
+    margin-left: 16rem;
+  }
+}
+@media (width: 768px) {
+ 
+  img[alt="Kimberly smith"] {
+    margin-left: 16rem;
   }
 }
