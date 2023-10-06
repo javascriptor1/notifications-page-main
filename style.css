@@ -114,6 +114,7 @@ img[alt="user profile image"] {
 
 .content-div__time {
   color: var(--Grayish-blue);
+  font-size: 14px;
 }
 .content-div__clubname {
   color: var(--Blue);
@@ -145,12 +146,15 @@ img[alt="Kimberly smith"] {
     max-width: 700px;
   }
   img[alt="Kimberly smith"] {
-    margin-left: 16rem;
+    margin-left: 13.5rem;
   }
 }
 @media (width: 768px) {
- 
   img[alt="Kimberly smith"] {
-    margin-left: 16rem;
+    margin-left: 13.5rem;
   }
+}
+
+footer {
+  margin-top: 2rem;
 }
