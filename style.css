@@ -63,7 +63,6 @@ div h1 span {
 /* Content div style ----------------- */
 
 .content-div {
-  background-color: var(--Very-light-grayish-blue);
   border-radius: 14px;
   padding: 1rem;
   display: flex;
@@ -71,6 +70,9 @@ div h1 span {
   align-items: center;
   gap: 1rem;
   margin-bottom: 0.5em;
+}
+.unread {
+  background-color: var(--Very-light-grayish-blue);
 }
 
 img[alt="user profile image"] {
@@ -83,11 +85,10 @@ img[alt="user profile image"] {
   color: black;
   margin-right: 2px;
   text-decoration: none;
-
 }
-.content-div__username:hover ,
-.content-div__post:hover{
-    color: var(--Blue);
+.content-div__username:hover,
+.content-div__post:hover {
+  color: var(--Blue);
 }
 .content-div__text {
   color: var(--Grayish-blue);
@@ -110,21 +111,34 @@ img[alt="user profile image"] {
 .content-div__time {
   color: var(--Grayish-blue);
 }
+.content-div__clubname {
+    color: var(--Blue);
+}
 .content-div__privateMessage {
-padding: 1em;
-  border: 2px solid --Grayish-blue;
+  padding: 1em;
+  border: 1px solid #0000001e;
   background-color: #fff;
   margin-top: 0.5em;
   color: var(--Grayish-blue);
-  font-size: 15px;
+  font-size: 16px;
+}
+.content-div__privateMessage:hover {
+    background-color: #e5eff9;
+    cursor: pointer;
 }
 
-@media (min-width: 1024px) {
+
+img[alt="Kimberly smith"]{
+    margin-left: 8.3rem;
+
+}
+
+@media (min-width: 800px) {
   body {
     background-color: #f9fafe;
     padding-top: 3rem;
   }
   .main-container {
-    max-width: 710px;
+    max-width: 750px;
   }
 }
